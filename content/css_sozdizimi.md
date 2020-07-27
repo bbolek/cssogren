@@ -1,6 +1,6 @@
 ---
-title: "CSS Sözdizimi?"
-metaTitle: "CSS Sözdizimi?"
+title: "CSS Sözdizimi"
+metaTitle: "CSS Sözdizimi"
 metaDescription: "CSS Sözdizimi"
 ---
     

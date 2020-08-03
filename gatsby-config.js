@@ -4,6 +4,7 @@ const config = require("./config");
 const plugins = [
   'gatsby-plugin-sitemap',
   'gatsby-plugin-sharp',
+  `gatsby-remark-images`,
   {
     resolve: `gatsby-plugin-layout`,
     options: {
@@ -26,7 +27,7 @@ const plugins = [
         {
           resolve: "gatsby-remark-images",
           options: {
-            maxWidth: 1035,
+            maxWidth: 1200,
             sizeByPixelDensity: true
           }
         },

@@ -40,21 +40,25 @@ const config = {
     forcedNavOrder: [
       '/introduction', // add trailing slash if enabled above
       '/css_nedir',
+      '/css_sozdizimi',
+      '/olcubirimleri',
     ],
     collapsedNav: [
-      '/css_nedir', // add trailing slash if enabled above
+      '/css_nedir/',
+      '/css_sozdizimi',
+      '/olcubirimleri',
     ],
     links: [{ text: 'CSS Öğren', link: 'http://cssogren.com' }],
     frontline: false,
     ignoreIndex: true,
     title:
-      "<a href='http://cssogren.com/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+      "<a href='http://cssogren.com/'>css öğren</a>",
   },
   siteMetadata: {
     title: 'Gatsby Gitbook Boilerplate | Hasura',
     description: 'Documentation built with mdx. Powering hasura.io/learn ',
     ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
+    docsLocation: 'https://github.com/bbolek/cssogren/tree/master/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {

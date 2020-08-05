@@ -5,7 +5,7 @@ metaDescription: "CSS Sözdizimi"
 ---
 Tipik bir css yazımı aşağıdaki gibidir.
 
-![CSS Sözdizimi](./images/syntax.png)
+![CSS Sözdizimi](./../images/syntax.png)
 
 
 Temelde 3 öğe vardır. Bunlar

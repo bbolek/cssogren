@@ -11,8 +11,10 @@ Seçme işlemini yapmadan stil uygulanamaz. Seçiciler HTML'de stilini değişti
 
 Seçiciler 5 temel kategoriye ayrılabilir.
 
-- **Temel Seçiciler (Simple Selectors)**
+- **Temel Seçiciler (Simple Selectors)**    
+
     Elemanları id, isim veya sınıfına göre seçerler
+    
 - **Birleşimsel Seçiciler (Combinator Selectors)**
 - **Sözde Sınıf Seçiciler (Pseudo-class Selectors)**
 - **Sözde Element Seçiciler (Pseudo-element Selectors)**

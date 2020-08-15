@@ -45,4 +45,41 @@ Yukarıdaki örnekte tanımlanan sınıf hangi elemana koyulursa onun yazısın�
 ```
 - **Evrensel Seçici**
 
+ '*' ile belirtilir. Sayfadaki tüm elemanları seçer. Tüm elemanlarda geçerli olmasını istediğiniz özellikler için kullanabilirsiniz.
+```css
+ * {
+  text-align: center;
+  color: blue;
+}
+```
+
 - **Grup Seçici**
+
+Birden fazla elaman için farklı yerlerde aynı css leri uyguladıysanız, bunları birleştirerek kodu daha kompakt hale getirebilirsiniz. Ve bakımı çok daha kolay olacaktır.
+```css
+h1 {
+  text-align: right;
+  color: red;
+}
+
+h2 {
+  text-align: right;
+  color: red;
+}
+
+p {
+  text-align: right;
+  color: red;
+}
+
+```
+
+Aşağıda gördüğünüz gibi varolan css lerin arasına virgül koyarak bunları birleştirebiliriz.
+
+```css
+> h1, h2, p {
+>   text-align: right;
+>   color: red;
+> }
+
+```
